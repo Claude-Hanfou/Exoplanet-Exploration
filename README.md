@@ -15,7 +15,7 @@ To help process this data, this project uses different machine learning models  
 * Separated the data into training and testing data.
 
 
-### Tune Model Parameters
+### Tuning Model Parameters
 
 * Used GridSearch to tune model parameters.
 * Tuned and compared five(05) different classifiers.
