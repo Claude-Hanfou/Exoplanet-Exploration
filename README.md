@@ -28,8 +28,8 @@ To help process this data, this project uses different machine learning models  
 
 ## Findings
 After analyzing 5 different models(SVM, Logistic Regression, Sequential, Random Forest, KNN), the findings shows which model has the highest level of accuracy.
-The SVM and Logistic Regression models had around the same accuracy (0.87) once they were hypertuned with the GridSearch parameters. The KNN model had an accuracy of 0.83 which has the lowest accuracy among all the models. 
+The SVM and Logistic Regression models had around the same accuracy (0.87) once they were hypertuned with the GridSearch parameters. The KNN model had an accuracy of 0.83 which has the lowest accuracy among all the models.The scores of the hypertuned GridSearch models slightly increased when compared to the test scores of the regular SVM, Logistic Regression,  Random Forest, KNN models.
 
-The Random forest model on the other hand had an accuracy of 0.892 which is the closest to the sequential model.The scores of the hypertuned GridSearch models slightly increased when compared to the test scores of the regular SVM, Logistic Regression,  Random Forest, KNN models.
+The Random forest model on the other hand had an accuracy of 0.892 and is the closest to the sequential model. This model and the sequential model have the highest accuracy and the best predictions.
 
-I had predicted that the Sequential model would have the highest accuracy because it used more than one layer of hidden nodes.The Sequential model had a slightly higher accuracy, (0.893). Overall, the Deep Lsequential model seemed to be the most accurate.
+I had predicted that the Sequential model would have the highest accuracy because it used more than one layer of hidden nodes.The Sequential model had a slightly higher accuracy, (0.893). Overall, the Deep Lsequential model seemed to be the most accurate, even though the Randa forest model came close to this model in accuracy, in terms of score, the sequential model provides us with more layers due to the different nodes it uses.
