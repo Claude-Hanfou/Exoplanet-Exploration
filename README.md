@@ -27,4 +27,7 @@ To help process this data, this project uses different machine learning models  
 
 
 ## Findings
-I predicted that the Deep Learning model would have the highest accuracy because it used more than one layer of hidden nodes. The SVM and Logistic Regression models had around the same accuracy (0.87) once they were hypertuned with the GridSearch parameters. The Deep Learning model had a slightly higher accuracy, (0.89). The scores of the hypertuned GridSearch models slightly increased when compared to the test scores of the regular SVM and Logistic Regression models. Overall, the Deep Learning model seemed to be the most accurate.
+After analyzing 5 different models(SVM, Logistic Regression, Sequential, Random Forest, KNN), the findings shows which model has the highest level of accuracy.
+The SVM and Logistic Regression models had around the same accuracy (0.87) once they were hypertuned with the GridSearch parameters. The KNN model had an accuracy of 0.83 which has the lowest accuracy among all the models. The Random forest model on the other hand had an accuracy of 0.892 which is the closest to the sequential model.The scores of the hypertuned GridSearch models slightly increased when compared to the test scores of the regular SVM, Logistic Regression,  Random Forest, KNN models.
+
+I had predicted that the Sequential model would have the highest accuracy because it used more than one layer of hidden nodes.The Sequential model had a slightly higher accuracy, (0.893). Overall, the Deep Lsequential model seemed to be the most accurate.
