@@ -5,7 +5,7 @@
 
 ## Background
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
-To help process this data, this project uses different machine learning models  (SVM, Logistic Regression, Sequential, Random Forest, KNN) capable of classifying candidate exoplanets from the raw dataset.
+To help process this data, this project uses different machine learning models  (SVM, Logistic Regression, Sequential, Random Forest, KNN) capable of classifying candidate exoplanets from the raw dataset..
 
 ## Steps to Creating the Models:
 1 Preprocessed the raw data
